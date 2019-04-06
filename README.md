@@ -5,18 +5,26 @@ Um script modularizado para buscar, através da API do jornal The Guardian, as �
 
 API utilizada: [The Guardian](https://open-platform.theguardian.com/)
 
-### Bibliotecas para Funcionamento do Script
-```sh
-pip install requests
-```
-```sh
-pip install json
-```
-```sh
-pip install panda
-```
 ## Arquivo Gerado
 ![Aplicação](captura.png)
+
+### Execução
+```sh
+$ git clone https://github.com/davipmdpaiva/news-theguardian.git
+$ cd the-guardian
+$ pip install requests
+$ pip install pandas
+$ python jornal.py
+```
+
+### Comandos do GIT
+```sh
+$ git status
+$ git add .
+$ git commit -m "texto"
+$ git pull --rebase origin master
+$ git push origin master
+```
 
 ### Desenvolvedor
 
